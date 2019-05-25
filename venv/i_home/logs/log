@@ -1,0 +1,543 @@
+
+[D 190514 13:54:20 selector_events:64] Using selector: SelectSelector
+[D 190514 13:57:10 selector_events:64] Using selector: SelectSelector
+[E 190514 13:57:15 web:1788] Uncaught exception GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/imagecode?codeid=123&pcodeid=1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+    TypeError: get() takes 0 positional arguments but 1 was given
+[E 190514 13:57:15 web:2246] 500 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 1.99ms
+[E 190514 13:57:21 web:1788] Uncaught exception GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/imagecode?codeid=123&pcodeid=1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+    TypeError: get() takes 0 positional arguments but 1 was given
+[E 190514 13:57:22 web:2246] 500 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 1.00ms
+[I 190514 13:58:51 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 13:58:51 selector_events:64] Using selector: SelectSelector
+[D 190514 13:58:52 selector_events:64] Using selector: SelectSelector
+[D 190514 13:58:58 selector_events:64] Using selector: SelectSelector
+[E 190514 13:59:02 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 13:59:02 web:1788] Uncaught exception GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8001', method='GET', uri='/api/imagecode?codeid=123&pcodeid=1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\myProjects1\venv\i_home\handlers\VerifyCode.py", line 19, in get
+        name, text, image = captcha.generate_captcha
+    AttributeError: module 'i_home.utils.captcha.captcha' has no attribute 'generate_captcha'
+[E 190514 13:59:02 web:2246] 500 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 1.99ms
+[W 190514 13:59:02 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+[I 190514 13:59:10 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[I 190514 14:00:44 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:00:44 selector_events:64] Using selector: SelectSelector
+[D 190514 14:00:44 selector_events:64] Using selector: SelectSelector
+[D 190514 14:00:48 selector_events:64] Using selector: SelectSelector
+[I 190514 14:01:15 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:01:15 selector_events:64] Using selector: SelectSelector
+[D 190514 14:01:15 selector_events:64] Using selector: SelectSelector
+[D 190514 14:03:08 selector_events:64] Using selector: SelectSelector
+[I 190514 14:04:45 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:04:45 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.99ms
+[I 190514 14:04:52 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 0.00ms
+[I 190514 14:04:58 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[D 190514 14:05:43 selector_events:64] Using selector: SelectSelector
+[I 190514 14:05:45 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.02ms
+[I 190514 14:06:20 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:06:20 selector_events:64] Using selector: SelectSelector
+[D 190514 14:06:20 selector_events:64] Using selector: SelectSelector
+[D 190514 14:06:22 selector_events:64] Using selector: SelectSelector
+[D 190514 14:06:23 selector_events:64] Using selector: SelectSelector
+[I 190514 14:06:24 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[D 190514 14:07:04 selector_events:64] Using selector: SelectSelector
+[E 190514 14:07:12 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:07:12 web:1788] Uncaught exception GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8000', method='GET', uri='/api/imagecode?codeid=123&pcodeid=1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\myProjects1\venv\i_home\handlers\VerifyCode.py", line 19, in get
+        name, text, image = captcha.generate_captcha()
+    AttributeError: module 'i_home.utils.captcha.captcha' has no attribute 'generate_captcha'
+[E 190514 14:07:12 web:2246] 500 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 2.99ms
+[I 190514 14:07:31 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[I 190514 14:08:28 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:08:28 selector_events:64] Using selector: SelectSelector
+[I 190514 14:08:39 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:08:40 selector_events:64] Using selector: SelectSelector
+[D 190514 14:08:40 selector_events:64] Using selector: SelectSelector
+[I 190514 14:08:54 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:08:54 selector_events:64] Using selector: SelectSelector
+[D 190514 14:08:54 selector_events:64] Using selector: SelectSelector
+[I 190514 14:08:57 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 0.00ms
+[W 190514 14:08:57 web:2246] 404 GET /favicon.ico (127.0.0.1) 2.01ms
+[D 190514 14:10:43 selector_events:64] Using selector: SelectSelector
+[I 190514 14:10:47 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:10:47 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.97ms
+[I 190514 14:11:15 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 0.00ms
+[W 190514 14:11:15 web:2246] 404 GET /favicon.ico (127.0.0.1) 0.00ms
+[D 190514 14:15:57 selector_events:64] Using selector: SelectSelector
+[I 190514 14:16:00 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[I 190514 14:16:26 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:16:26 selector_events:64] Using selector: SelectSelector
+[D 190514 14:16:26 selector_events:64] Using selector: SelectSelector
+[D 190514 14:16:28 selector_events:64] Using selector: SelectSelector
+[I 190514 14:16:32 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:16:32 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+[I 190514 14:18:42 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:18:42 selector_events:64] Using selector: SelectSelector
+[D 190514 14:18:43 selector_events:64] Using selector: SelectSelector
+[D 190514 14:18:44 selector_events:64] Using selector: SelectSelector
+[I 190514 14:18:52 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 0.00ms
+[I 190514 14:19:01 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:19:01 selector_events:64] Using selector: SelectSelector
+[D 190514 14:19:01 selector_events:64] Using selector: SelectSelector
+[D 190514 14:19:03 selector_events:64] Using selector: SelectSelector
+[I 190514 14:19:08 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:19:08 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.99ms
+[I 190514 14:24:01 autoreload:202] D:\myProjects1\venv\i_home\utils\captcha\captcha.py modified; restarting server
+[D 190514 14:24:02 selector_events:64] Using selector: SelectSelector
+[I 190514 14:24:16 autoreload:202] D:\myProjects1\venv\i_home\utils\captcha\captcha.py modified; restarting server
+[D 190514 14:24:16 selector_events:64] Using selector: SelectSelector
+[I 190514 14:24:22 autoreload:202] D:\myProjects1\venv\i_home\utils\captcha\captcha.py modified; restarting server
+[D 190514 14:24:23 selector_events:64] Using selector: SelectSelector
+[I 190514 14:24:36 autoreload:202] D:\myProjects1\venv\i_home\utils\captcha\captcha.py modified; restarting server
+[D 190514 14:24:37 selector_events:64] Using selector: SelectSelector
+[I 190514 14:25:00 autoreload:202] D:\myProjects1\venv\i_home\utils\captcha\captcha.py modified; restarting server
+[D 190514 14:25:00 selector_events:64] Using selector: SelectSelector
+[I 190514 14:25:27 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:25:27 selector_events:64] Using selector: SelectSelector
+[D 190514 14:25:42 selector_events:64] Using selector: SelectSelector
+[I 190514 14:25:51 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:25:52 selector_events:64] Using selector: SelectSelector
+[D 190514 14:25:52 selector_events:64] Using selector: SelectSelector
+[I 190514 14:25:58 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:25:58 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+[D 190514 14:27:07 selector_events:64] Using selector: SelectSelector
+[I 190514 14:27:16 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[I 190514 14:27:24 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 0.00ms
+[E 190514 14:27:27 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:27:27 web:1788] Uncaught exception GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8007', method='GET', uri='/api/imagecode?codeid=123&pcodeid=1', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 1697, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "D:\myProjects1\venv\i_home\handlers\VerifyCode.py", line 19, in get
+        name, text, image = captcha.generate_captcha()
+    AttributeError: module 'i_home.utils.captcha.captcha' has no attribute 'generate_captcha'
+[E 190514 14:27:27 web:2246] 500 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 1.99ms
+[I 190514 14:28:50 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:28:51 selector_events:64] Using selector: SelectSelector
+[I 190514 14:28:54 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:28:55 selector_events:64] Using selector: SelectSelector
+[D 190514 14:29:00 selector_events:64] Using selector: SelectSelector
+[I 190514 14:29:07 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:29:08 selector_events:64] Using selector: SelectSelector
+[D 190514 14:29:13 selector_events:64] Using selector: SelectSelector
+[D 190514 14:29:28 selector_events:64] Using selector: SelectSelector
+[I 190514 14:29:28 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:29:28 selector_events:64] Using selector: SelectSelector
+[I 190514 14:29:37 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:29:37 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.99ms
+[D 190514 14:30:03 selector_events:64] Using selector: SelectSelector
+[I 190514 14:30:14 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[I 190514 14:30:22 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:30:22 selector_events:64] Using selector: SelectSelector
+[D 190514 14:30:23 selector_events:64] Using selector: SelectSelector
+[I 190514 14:30:29 web:2246] 304 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[I 190514 14:30:41 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:30:41 selector_events:64] Using selector: SelectSelector
+[D 190514 14:30:41 selector_events:64] Using selector: SelectSelector
+[D 190514 14:30:45 selector_events:64] Using selector: SelectSelector
+[D 190514 14:30:46 selector_events:64] Using selector: SelectSelector
+[I 190514 14:30:52 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:30:52 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.99ms
+[D 190514 14:33:17 selector_events:64] Using selector: SelectSelector
+[I 190514 14:33:32 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 14:33:32 selector_events:64] Using selector: SelectSelector
+[D 190514 14:33:32 selector_events:64] Using selector: SelectSelector
+[I 190514 14:33:42 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid= (127.0.0.1) 1.00ms
+[W 190514 14:33:42 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+[E 190514 14:35:11 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:11 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:11 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 24.93ms
+[I 190514 14:35:47 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 14:35:47 selector_events:64] Using selector: SelectSelector
+[D 190514 14:35:47 selector_events:64] Using selector: SelectSelector
+[E 190514 14:35:53 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:53 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:53 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 20.02ms
+[E 190514 14:35:53 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:53 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:53 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 8.98ms
+[E 190514 14:35:54 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:54 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:54 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 8.98ms
+[E 190514 14:35:54 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:54 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:54 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 10.03ms
+[W 190514 14:35:54 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+[E 190514 14:35:54 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:54 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:54 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 11.03ms
+[E 190514 14:35:54 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:54 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:54 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 10.03ms
+[E 190514 14:35:54 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:54 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:54 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 11.03ms
+[E 190514 14:35:55 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:55 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:55 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 10.03ms
+[W 190514 14:35:55 web:2246] 404 GET /favicon.ico (127.0.0.1) 0.00ms
+[E 190514 14:35:55 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:55 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:55 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 10.97ms
+[E 190514 14:35:55 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:55 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:55 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 7.99ms
+[E 190514 14:35:55 VerifyCode:15] 'Application' object has no attribute 'reids'
+[E 190514 14:35:55 VerifyCode:26] 'Application' object has no attribute 'reids'
+[I 190514 14:35:55 web:2246] 200 GET /api/imagecode?codeid=123&pcodeid=1 (127.0.0.1) 10.94ms
+[D 190514 15:45:04 selector_events:64] Using selector: SelectSelector
+[D 190514 15:45:23 Passport:9] debug msg
+[I 190514 15:45:23 Passport:10] info msg
+[W 190514 15:45:23 Passport:11] warning msg
+[E 190514 15:45:23 Passport:12] error msg
+[I 190514 15:45:23 web:2246] 200 GET / (127.0.0.1) 29.92ms
+[W 190514 15:45:23 web:2246] 404 GET /favicon.ico (127.0.0.1) 26.93ms
+[E 190514 15:45:30 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:45:30 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:45:31 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:45:32 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[D 190514 15:45:57 selector_events:64] Using selector: SelectSelector
+[E 190514 15:46:01 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:46:01 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:46:03 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:46:05 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:46:12 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[E 190514 15:46:12 http1connection:67] Uncaught exception
+    Traceback (most recent call last):
+      File "D:\myProjects1\venv\lib\site-packages\tornado\http1connection.py", line 273, in _read_message
+        delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\routing.py", line 268, in finish
+        self.delegate.finish()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2293, in finish
+        self.execute()
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 2313, in execute
+        self.application, self.request, **self.handler_kwargs
+      File "D:\myProjects1\venv\lib\site-packages\tornado\web.py", line 233, in __init__
+        self.initialize(**kwargs)  # type: ignore
+    TypeError: initialize() got an unexpected keyword argument 'default_file'
+[I 190514 15:46:41 autoreload:202] D:\myProjects1\venv\i_home\static\urls.py modified; restarting server
+[D 190514 15:46:41 selector_events:64] Using selector: SelectSelector
+[W 190514 15:46:42 web:2246] 404 GET / (127.0.0.1) 5.95ms
+[D 190514 15:47:07 selector_events:64] Using selector: SelectSelector
+[I 190514 15:47:25 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 15:47:25 selector_events:64] Using selector: SelectSelector
+[D 190514 15:47:25 selector_events:64] Using selector: SelectSelector
+[W 190514 15:47:29 web:2246] 404 GET / (127.0.0.1) 1.99ms
+[W 190514 15:47:29 web:2246] 404 GET /favicon.ico (127.0.0.1) 1.00ms
+[I 190514 15:48:22 autoreload:202] D:/myProjects1/venv/i_home/static/server1.py modified; restarting server
+[D 190514 15:48:22 selector_events:64] Using selector: SelectSelector
+[W 190514 15:48:43 web:2246] 404 GET /index (127.0.0.1) 1.99ms
+[W 190514 15:48:49 web:2246] 404 GET /index.html (127.0.0.1) 1.00ms
+[I 190514 15:56:07 autoreload:202] D:\myProjects1\venv\i_home\handlers\VerifyCode.py modified; restarting server
+[D 190514 15:56:20 selector_events:64] Using selector: SelectSelector
+[D 190514 15:57:20 selector_events:64] Using selector: SelectSelector
+[I 190514 15:57:44 web:2246] 200 GET / (127.0.0.1) 479.72ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 4.99ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.99ms
+[W 190514 15:57:44 web:2246] 404 GET /static/css/reset.css (127.0.0.1) 1.99ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 3.01ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 3.99ms
+[W 190514 15:57:44 web:2246] 404 GET /static/css/ihome/main.css (127.0.0.1) 5.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/css/ihome/index.css (127.0.0.1) 1.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/js/jquery.min.js (127.0.0.1) 1.99ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.99ms
+[W 190514 15:57:44 web:2246] 404 GET /static/js/template.js (127.0.0.1) 1.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/js/ihome/index.js (127.0.0.1) 1.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/images/logo@128x59.png (127.0.0.1) 1.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/js/template.js (127.0.0.1) 1.00ms
+[W 190514 15:57:44 web:2246] 404 GET /static/js/ihome/index.js (127.0.0.1) 1.00ms
+[W 190514 15:57:51 web:2246] 404 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.00ms
+[W 190514 15:57:51 web:2246] 404 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.00ms
+[W 190514 15:57:51 web:2246] 404 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 1.99ms
+[W 190514 15:57:51 web:2246] 404 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 1.99ms
+[W 190514 15:57:51 web:2246] 404 GET /static/css/reset.css (127.0.0.1) 2.99ms
+[W 190514 15:57:51 web:2246] 404 GET /static/css/ihome/main.css (127.0.0.1) 3.99ms
+[W 190514 15:57:51 web:2246] 404 GET /static/css/ihome/index.css (127.0.0.1) 1.00ms
+[D 190514 15:58:39 selector_events:64] Using selector: SelectSelector
+[I 190514 15:58:42 web:2246] 304 GET / (127.0.0.1) 508.64ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.99ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 1.99ms
+[I 190514 15:58:42 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 2.99ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 4.99ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 5.98ms
+[I 190514 15:58:42 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 6.98ms
+[I 190514 15:58:42 web:2246] 200 GET /static/css/ihome/index.css (127.0.0.1) 8.98ms
+[I 190514 15:58:42 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 4.99ms
+[I 190514 15:58:42 web:2246] 200 GET /static/js/template.js (127.0.0.1) 5.98ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 6.98ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 12.97ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 13.96ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 16.95ms
+[I 190514 15:58:42 web:2246] 200 GET /static/js/ihome/index.js (127.0.0.1) 2.00ms
+[I 190514 15:58:42 web:2246] 200 GET /static/images/logo@128x59.png (127.0.0.1) 2.99ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 1.00ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.00ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 0.00ms
+[W 190514 15:58:42 web:2246] 404 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 1.00ms
+[W 190514 15:58:42 web:2246] 404 GET /api/check_login (127.0.0.1) 1.00ms
+[W 190514 15:58:42 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[D 190514 15:59:48 selector_events:64] Using selector: SelectSelector
+[D 190514 15:59:50 selector_events:64] Using selector: SelectSelector
+[I 190514 15:59:51 web:2246] 304 GET / (127.0.0.1) 510.63ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 3.99ms
+[I 190514 15:59:51 web:2246] 304 GET /static/css/ihome/main.css (127.0.0.1) 2.99ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 4.99ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 7.98ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 8.98ms
+[I 190514 15:59:51 web:2246] 304 GET /static/css/reset.css (127.0.0.1) 10.97ms
+[I 190514 15:59:51 web:2246] 304 GET /static/css/ihome/index.css (127.0.0.1) 11.97ms
+[I 190514 15:59:51 web:2246] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.00ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 3.06ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 13.96ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 21.94ms
+[I 190514 15:59:51 web:2246] 304 GET /static/js/template.js (127.0.0.1) 3.99ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 6.98ms
+[I 190514 15:59:51 web:2246] 304 GET /static/images/logo@128x59.png (127.0.0.1) 4.99ms
+[I 190514 15:59:51 web:2246] 304 GET /static/js/ihome/index.js (127.0.0.1) 4.99ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 22.94ms
+[I 190514 15:59:51 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 2.99ms
+[W 190514 15:59:51 web:2246] 404 GET /api/check_login (127.0.0.1) 1.99ms
+[W 190514 15:59:51 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[W 190514 15:59:51 web:2246] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[D 190514 16:01:12 selector_events:64] Using selector: SelectSelector
+[I 190514 16:01:14 web:2246] 200 GET / (127.0.0.1) 495.68ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 4.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 1.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 3.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 6.98ms
+[I 190514 16:01:14 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 8.98ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 11.98ms
+[I 190514 16:01:14 web:2246] 200 GET /static/css/ihome/index.css (127.0.0.1) 13.96ms
+[I 190514 16:01:14 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 4.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/js/template.js (127.0.0.1) 2.00ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 3.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 5.98ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 8.98ms
+[I 190514 16:01:14 web:2246] 200 GET /static/images/logo@128x59.png (127.0.0.1) 1.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/js/ihome/index.js (127.0.0.1) 2.99ms
+[I 190514 16:01:14 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 9.97ms
+[W 190514 16:01:14 web:2246] 404 GET /api/check_login (127.0.0.1) 1.99ms
+[W 190514 16:01:14 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[W 190514 16:01:14 web:2246] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 0.00ms
+[I 190514 16:01:14 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+[D 190514 16:01:18 selector_events:64] Using selector: SelectSelector
+[D 190514 16:03:20 selector_events:64] Using selector: SelectSelector
+[I 190514 16:03:22 web:2246] 304 GET / (127.0.0.1) 508.61ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.00ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 2.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 2.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/css/ihome/main.css (127.0.0.1) 4.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/css/reset.css (127.0.0.1) 5.98ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 7.98ms
+[I 190514 16:03:23 web:2246] 304 GET /static/css/ihome/index.css (127.0.0.1) 9.97ms
+[I 190514 16:03:23 web:2246] 304 GET /static/js/jquery.min.js (127.0.0.1) 2.00ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 4.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 5.98ms
+[I 190514 16:03:23 web:2246] 304 GET /static/js/ihome/index.js (127.0.0.1) 2.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/images/logo@128x59.png (127.0.0.1) 2.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/js/template.js (127.0.0.1) 4.99ms
+[I 190514 16:03:23 web:2246] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 5.98ms
+[W 190514 16:03:23 web:2246] 404 GET /api/check_login (127.0.0.1) 1.00ms
+[W 190514 16:03:23 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[W 190514 16:03:23 web:2246] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 190514 16:03:23 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.99ms
+[D 190514 18:53:11 selector_events:64] Using selector: SelectSelector
+[W 190514 18:53:34 web:2246] 404 GET /api/check_login (127.0.0.1) 1.00ms
+[W 190514 18:53:34 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[W 190514 18:53:40 web:2246] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[W 190514 18:53:52 web:2246] 404 GET /api/check_login (127.0.0.1) 1.00ms
+[I 190514 18:56:33 autoreload:202] D:\myProjects1\venv\i_home\urls.py modified; restarting server
+[D 190514 19:11:55 selector_events:64] Using selector: SelectSelector
+[I 190514 19:12:00 web:2246] 304 GET / (127.0.0.1) 518.64ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 1.00ms
+[I 190514 19:12:00 web:2246] 304 GET /static/css/reset.css (127.0.0.1) 2.99ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 4.99ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 4.99ms
+[I 190514 19:12:00 web:2246] 304 GET /static/css/ihome/main.css (127.0.0.1) 6.98ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 7.98ms
+[I 190514 19:12:00 web:2246] 304 GET /static/css/ihome/index.css (127.0.0.1) 8.98ms
+[I 190514 19:12:00 web:2246] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.99ms
+[I 190514 19:12:00 web:2246] 304 GET /static/js/template.js (127.0.0.1) 8.98ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 9.97ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 10.97ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 12.97ms
+[I 190514 19:12:00 web:2246] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 14.96ms
+[I 190514 19:12:00 web:2246] 304 GET /static/images/logo@128x59.png (127.0.0.1) 2.99ms
+[I 190514 19:12:00 web:2246] 304 GET /static/js/ihome/index.js (127.0.0.1) 5.98ms
+[W 190514 19:12:00 web:2246] 404 GET /api/check_login (127.0.0.1) 1.99ms
+[W 190514 19:12:00 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[W 190514 19:12:00 web:2246] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 190514 19:12:00 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+[D 190514 19:12:18 selector_events:64] Using selector: SelectSelector
+[I 190514 19:12:22 web:2246] 200 GET / (127.0.0.1) 477.72ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 5.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 3.99ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 5.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/css/ihome/main.css (127.0.0.1) 6.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/css/reset.css (127.0.0.1) 8.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 3.99ms
+[I 190514 19:12:22 web:2246] 200 GET /static/css/ihome/index.css (127.0.0.1) 9.97ms
+[I 190514 19:12:22 web:2246] 200 GET /static/js/jquery.min.js (127.0.0.1) 4.99ms
+[I 190514 19:12:22 web:2246] 200 GET /static/js/template.js (127.0.0.1) 5.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 5.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 10.97ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 6.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 8.98ms
+[I 190514 19:12:22 web:2246] 200 GET /static/js/ihome/index.js (127.0.0.1) 1.99ms
+[I 190514 19:12:22 web:2246] 200 GET /static/images/logo@128x59.png (127.0.0.1) 2.99ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/bootstrap/css/bootstrap.min.css.map (127.0.0.1) 26.93ms
+[I 190514 19:12:22 web:2246] 200 GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 (127.0.0.1) 1.99ms
+[W 190514 19:12:22 web:2246] 404 GET /api/check_login (127.0.0.1) 1.99ms
+[W 190514 19:12:22 web:2246] 404 GET /api/house/index (127.0.0.1) 2.00ms
+[W 190514 19:12:22 web:2246] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
+[I 190514 19:12:22 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+[D 190514 20:33:43 selector_events:64] Using selector: SelectSelector
+[I 190514 20:33:48 web:2246] 304 GET / (127.0.0.1) 500.66ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/bootstrap/css/bootstrap.min.css (127.0.0.1) 2.00ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/font-awesome/css/font-awesome.min.css (127.0.0.1) 3.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/css/reset.css (127.0.0.1) 3.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/css/ihome/index.css (127.0.0.1) 4.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/swiper/css/swiper.min.css (127.0.0.1) 2.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css (127.0.0.1) 3.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/css/ihome/main.css (127.0.0.1) 4.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/js/jquery.min.js (127.0.0.1) 1.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/swiper/js/swiper.jquery.min.js (127.0.0.1) 1.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/bootstrap/js/bootstrap.min.js (127.0.0.1) 2.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js (127.0.0.1) 2.00ms
+[I 190514 20:33:49 web:2246] 304 GET /static/js/template.js (127.0.0.1) 2.99ms
+[I 190514 20:33:49 web:2246] 304 GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js (127.0.0.1) 2.00ms
+[I 190514 20:33:49 web:2246] 304 GET /static/js/ihome/index.js (127.0.0.1) 1.00ms
+[I 190514 20:33:49 web:2246] 304 GET /static/images/logo@128x59.png (127.0.0.1) 2.99ms
+[W 190514 20:33:49 web:2246] 404 GET /api/check_login (127.0.0.1) 1.99ms
+[W 190514 20:33:49 web:2246] 404 GET /api/house/index (127.0.0.1) 1.00ms
+[I 190514 20:33:49 web:2246] 200 GET /favicon.ico (127.0.0.1) 1.00ms
+[W 190514 20:33:49 web:2246] 404 GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map (127.0.0.1) 1.00ms
